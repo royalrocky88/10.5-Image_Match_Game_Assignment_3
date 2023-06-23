@@ -1,0 +1,158 @@
+.bg-container {
+  min-height: 100vh;
+  font-family: roboto;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+}
+
+.head-container {
+  background-color: #2c0e3a;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.head-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 95%;
+}
+
+.web-logo {
+  height: 45px;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-text {
+  padding-right: 20px;
+  font-size: large;
+}
+
+span {
+  color: #fec653;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.time-card {
+  height: 30px;
+  padding-right: 5px;
+}
+
+.time-text {
+  color: #fec653;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fruit-img {
+  height: 40%;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.play-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.each-tab-container {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.each-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  min-width: 500px;
+}
+
+.trophy-img {
+  margin-top: 40%;
+  width: 250px;
+  margin-bottom: 2%;
+}
+
+.score-card {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.reset-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #cf60c8;
+  height: 50px;
+  width: 180px;
+  margin-bottom: 10%;
+}
+
+.reset-card {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 10px;
+}

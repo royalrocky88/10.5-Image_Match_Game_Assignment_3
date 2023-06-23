@@ -1,0 +1,14 @@
+.each-img-list {
+  list-style-type: none;
+  margin: 3px;
+}
+
+.group-img-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.thumbnail-img {
+  height: 100px;
+  width: 100px;
+}

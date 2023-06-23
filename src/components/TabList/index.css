@@ -1,0 +1,20 @@
+.each-tab-list {
+  padding: 10px;
+}
+
+.activeBtn {
+  border-style: none;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.active {
+  border-bottom: 2px solid #fec653;
+  color: #fec653;
+}
